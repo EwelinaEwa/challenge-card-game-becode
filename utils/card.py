@@ -20,6 +20,9 @@ class Card (Symbol):
         self.value = value
 
     def __str__(self):
-        return self.value
+        return self.value + self.icon
 
+
+new_card = Card('A', "Hearts", "♠")
+print(new_card)
 
